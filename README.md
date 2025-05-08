@@ -10,7 +10,7 @@ Delete student records
 Project Structure
 The project follows a standard Spring Boot structure:
 
-src/
+ src/
 ├── main/
 │   ├── java/
 │   │   └── lk/
@@ -19,11 +19,8 @@ src/
 │   │               └── fas/
 │   │                   └── ict/
 │   │                       ├── controller/
-│   │                       │   └── AppController.java
-|   |                       |   |__ MsgContoller.java
+│   │                       │   └── AppController.java , MsgController.java
 │   │                       └── model/
-│   │                           └── Student.java
-|   |                           |__ Course.java
+│   │                           └── Student.java , Course.java
 │   └── resources/
 │       └── application.properties
-
